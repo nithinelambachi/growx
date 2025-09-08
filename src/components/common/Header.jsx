@@ -11,7 +11,7 @@ const Header = () => {
         <div className="header-content">
           <div className="logo-section">
             <div className="logo-container">
-              <div className="star-logo-container">
+              <div>
                <img src='./images/Starsheader.png'/>
 
               </div>

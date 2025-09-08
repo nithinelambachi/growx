@@ -1,13 +1,7 @@
 'use client';
-import { useState, useEffect } from 'react';
 import Button from '../components/ui/Button';
 
 export default function HeroSection() {
-  const [scrollText, setScrollText] = useState('');
-
-  useEffect(() => {
-    setScrollText('Scroll Down');
-  }, []);
 
   return (
     <section className="hero-section">

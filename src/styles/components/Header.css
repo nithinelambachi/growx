@@ -74,53 +74,6 @@
   height: 72px;
 }
 
-.star-logo-inner {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.star-main {
-  position: absolute;
-  top: 0;
-  left: 0.5rem;
-}
-
-.star-group-right {
-  position: absolute;
-  top: 0.25rem;
-  right: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0;
-}
-
-.star-group-left {
-  position: absolute;
-  bottom: 0.25rem;
-  left: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0;
-}
-
-.star-bottom-right {
-  position: absolute;
-  bottom: 0;
-  right: 0.5rem;
-}
-
-.star-transform {
-  transform: translateY(-1.25rem);
-}
-
 .logo-text {
   font-size: 1.875rem;
   font-weight: 500;
@@ -164,9 +117,7 @@
   }
 }
 @media (max-width: 1024px) {
-  
-    .contacthidden-button
-  {
+  .contacthidden-button {
     display: none;
   }
 }

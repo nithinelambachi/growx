@@ -184,10 +184,6 @@
   left: var(--indicator-left);
 }
 
-.progress-indicator-bg {
-  background-image: url('/images/img_rectangle_40.svg');
-}
-
 .progress-percentage {
   font-size: 0.875rem;
   font-weight: 500;
