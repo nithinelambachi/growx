@@ -11,7 +11,7 @@ export default function HeroSection() {
         <div className="hero-content">
           
           <div className="hero-left">
-            <div className="hero-icon-container">
+            <div className="hero-icon-container" style={{ display: 'flex', justifyContent: 'flex-end' }}>
               <img 
                 src="/images/img_frame_1000006388.svg" 
                 alt="Decorative icon" 
