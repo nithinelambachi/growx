@@ -30,8 +30,7 @@
 }
 
 .awards-card {
-  border: 1px solid;
-  border-image: linear-gradient(122deg, #ff6e3f 0%, #ffb096 100%) 1;
+  border: 1px solid #ffb096;
   border-radius: 1.5rem;
   padding: 2rem;
 }

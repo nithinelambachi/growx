@@ -28,7 +28,6 @@ export default function AwardsSection() {
       <div className="awards-container">
         <div className="awards-card">
           <div className="awards-content">
-            {/* Left Content */}
             <div className="awards-left">
               <h2 className="awards-title">
                 An award-winning media intelligence solution
@@ -38,9 +37,7 @@ export default function AwardsSection() {
               </p>
             </div>
 
-            {/* Right Content - Achievements Grid */}
             <div className="awards-right">
-              {/* First Row */}
               <div className="awards-row">
                 <div className="awards-item">
                   <h3 className="awards-number">
@@ -60,7 +57,6 @@ export default function AwardsSection() {
                 </div>
               </div>
 
-              {/* Second Row */}
               <div className="awards-row">
                 <div className="awards-item">
                   <h3 className="awards-number">

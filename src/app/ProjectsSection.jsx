@@ -40,6 +40,14 @@ export default function ProjectsSection() {
             <div className="projects-list">
               {projects.map((project) => (
                 <div key={project.id} className="project-item">
+                  <div className="project-details">
+                    <h3 className="project-title">
+                      {project.title}
+                    </h3>
+                    <span className="project-value">
+                      {project.value}
+                    </span>
+                  </div>
                   <div className="progress-container">
                     <div className="progress-background">
                       <div className="progress-bar">
@@ -66,14 +74,7 @@ export default function ProjectsSection() {
                     </div>
                   </div>
 
-                  <div className="project-details">
-                    <h3 className="project-title">
-                      {project.title}
-                    </h3>
-                    <span className="project-value">
-                      {project.value}
-                    </span>
-                  </div>
+                  
                 </div>
               ))}
             </div>
