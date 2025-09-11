@@ -64,8 +64,6 @@
   align-items: center;
   gap: 0.75rem;
   padding: 0.75rem 1.5rem;
-  border: 1px solid var(--border-brand);
-  border-radius: 86px;
 }
 
 .star-logo-container {
